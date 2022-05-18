@@ -17,8 +17,10 @@ Dealing with the small and gradually changing difference between clock rates in 
 
 ## Homework
 
-?
-
+1. Transmit a signal from a signal generator through an oscilloscope and through your RTL-SDR radio to see the difference like we did in the video. Try approaching the MHz frequency that your GNU Radio Companion is set to using the signal generator, and make sure that you see the sinosoidal functions become flat planes.
+2. Tune the generator up and down. In the QT folder (where you found QT GUI Frequency Sink), find the `QT GUI Constellation Sink` and attach that to to the RTL-SDR block. What do you see as you change the frequency? What doesn't change?
+3. If you move the signal generator below 0 MHz, what does that negative frequency mean? What happens to the sinosoidal functions when you make the frequency negative? Explain why.
+4. Carry your antenna and computer around the room. Try to find the places in your room with the most frequency or radio activity, and what types of waves and what level of amplitude they give off. If you are around a larger structure that carries, receives, or produces signals, like a radio tower, try walking nearby and seeing what happens.
 
 <!--
 Transmit a 100 MHz sine wave from a signal generator simultaneously into a real oscilloscope and a BNC with hooks.
